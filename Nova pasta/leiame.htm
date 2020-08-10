@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Instru&ccedil;&otilde;es de Instala&ccedil;&atilde;o</title>
+</head>
+
+<body>
+<h1>
+  <p align="center"><strong>Orienta&ccedil;&otilde;es de uso dos c&oacute;digos do   DataGrid</strong></p>
+</h1>
+<p><strong>Requisitos t&eacute;cnicos:</strong><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Um  servidor web que interprete o PHP;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O  banco de dados MySQL;</p>
+<p><strong>Conhecimentos necess&aacute;rios para implementa&ccedil;&atilde;o dos c&oacute;digos:</strong><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uso  de navegadores (Internet Explorer, Mozila, Safari...);<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No&ccedil;&otilde;es  de PHP;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No&ccedil;&otilde;es  de JavaScript;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No&ccedil;&otilde;es  de uso do PHPMyAdmin;<br />
+</p>
+<p><strong>P&uacute;blico-alvo:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolvedores e Analistas de Sistemas que utilizem a linguagem PHP;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Designers e curiosos que queiram entender como se d&aacute; o processo de inclus&atilde;o, altera&ccedil;&atilde;o e exclus&atilde;o de dados, utilizando MySQL, PHP e AJAX;</p>
+<p><strong>DataGrid:</strong> &eacute; uma tabela onde est&atilde;o exibidos os produtos cadastrados  em um banco de dados, onde se &eacute; poss&iacute;vel fazer a inclus&atilde;o, altera&ccedil;&atilde;o e exclus&atilde;o  dos produtos cadastrados pela pr&oacute;pria tabela, sem a necessidade de abrir  p&aacute;ginas e formul&aacute;rios secund&aacute;rios para este fim.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O  DataGrid &eacute; composto pelos seguintes arquivos:</p>
+<ol>
+  <li><strong>bibliotecaAjax.js:</strong> &eacute; composto por um conjunto de fun&ccedil;&otilde;es que tratam e manipulam as informa&ccedil;&otilde;es  enviadas do browser ao servidor e vice-versa;</li>
+  <li><strong>estiloDataGrid.css:</strong> cont&eacute;m os estilos que ser&atilde;o utilizados pelo sistema;</li>
+  <li><strong>sugestoes.php:</strong> Trata os dados enviados pelo browser e retorna os valores extra&iacute;dos do banco de  dados em formato XML;</li>
+  <li><strong>index.php:</strong> Cont&eacute;m  os c&oacute;digos que exibir&atilde;o os produtos existentes no banco de dados em forma de  tabela e os controle necess&aacute;rios a sua manipula&ccedil;&atilde;o;</li>
+  <li><strong>index2.php:</strong> Cont&eacute;m os c&oacute;digos que far&atilde;o a inclus&atilde;o, altera&ccedil;&atilde;o e exclus&atilde;o dos produtos;</li>
+  <li><strong>banco_de_dados.txt:</strong> Cont&eacute;m as instru&ccedil;&otilde;es em SQL que criar&atilde;o o banco de dados, a tabela e far&aacute; a  inser&ccedil;&atilde;o de dados que ser&atilde;o usados como exemplo, mas que podem ser apagados  posteriormente;</li>
+</ol>
+<p><strong>Instala&ccedil;&atilde;o:</strong></p>
+<ol>
+  <li>Abra o arquivo banco_de_dados.txt e copie todas as  informa&ccedil;&otilde;es contidas nele;</li>
+  <li>No PHPMyAdmin, clique em banco de dados e em seguida em  SQL;</li>
+  <li>Cole as informa&ccedil;&otilde;es que voc&ecirc; copiou do arquivo  banco_de_dados.txt no campo de texto apresentado;</li>
+  <li>Em seguida clique em executar;</li>
+  <li>Copie os arquivos bibiotecaAjax.js, estiloDataGrid.css,  index.php e index2.php para uma pasta do seu servidor web;</li>
+  <li>Abre um navegador qualquer e digite a url:  http://&lt;nome_do_servidor&gt;/ &lt;nome_da_pasta&gt;/ index.php;</li>
+  <li>Se abrir a tela com a tabela de produtos, o sistema  estar&aacute; pronto pra voc&ecirc; usar. Caso apresente erro de exibi&ccedil;&atilde;o, verifique se a  url est&aacute; correta.</li>
+</ol>
+</body>
+</html>

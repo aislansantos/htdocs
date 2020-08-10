@@ -1,0 +1,141 @@
+[30-Apr-2020 08:47:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[30-Apr-2020 08:55:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[30-Apr-2020 09:04:39 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/aaoste53/public_html/classes/usuario.class.php:17) in /home2/aaoste53/public_html/classes/usuario.class.php on line 22
+[30-Apr-2020 09:04:39 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/aaoste53/public_html/classes/usuario.class.php:17) in /home2/aaoste53/public_html/login.php on line 15
+[30-Apr-2020 09:16:11 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aaoste53_aprovar_controle.historico' doesn't exist in /home2/aaoste53/public_html/classes/log.class.php:18
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/log.class.php(18): PDOStatement->execute()
+#1 /home2/aaoste53/public_html/classes/cadastroUsuario.class.php(200): Log->registrar('Inclus\xC3\xA3o de Us...', 'teste@teste.com...')
+#2 /home2/aaoste53/public_html/classes/cadastroUsuario.class.php(112): CadastroUsuario->logIncluir()
+#3 /home2/aaoste53/public_html/usu_Salvar.php(32): CadastroUsuario->salvar()
+#4 {main}
+  thrown in /home2/aaoste53/public_html/classes/log.class.php on line 18
+[30-Apr-2020 09:31:28 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aaoste53_aprovar_controle.filial' doesn't exist in /home2/aaoste53/public_html/classes/cadastroFilial.class.php:134
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/cadastroFilial.class.php(134): PDOStatement->execute()
+#1 /home2/aaoste53/public_html/filial_Salvar.php(26): Filial->verificaFilial()
+#2 {main}
+  thrown in /home2/aaoste53/public_html/classes/cadastroFilial.class.php on line 134
+[30-Apr-2020 14:58:25 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aaoste53_aprovar_controle.filial' doesn't exist in /home2/aaoste53/public_html/classes/cadastroFilial.class.php:80
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/cadastroFilial.class.php(80): PDO->query('SELECT COUNT(*)...')
+#1 /home2/aaoste53/public_html/filial_Consultar.php(55): Filial->consultar()
+#2 {main}
+  thrown in /home2/aaoste53/public_html/classes/cadastroFilial.class.php on line 80
+[30-Apr-2020 14:58:32 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aaoste53_aprovar_controle.filial' doesn't exist in /home2/aaoste53/public_html/classes/cadastroFilial.class.php:134
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/cadastroFilial.class.php(134): PDOStatement->execute()
+#1 /home2/aaoste53/public_html/filial_Salvar.php(26): Filial->verificaFilial()
+#2 {main}
+  thrown in /home2/aaoste53/public_html/classes/cadastroFilial.class.php on line 134
+[04-May-2020 15:23:42 America/Fortaleza] PHP Warning:  require_once(classes/CadastroFornecedor.class.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:23:42 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'classes/CadastroFornecedor.class.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:30:58 America/Fortaleza] PHP Warning:  require_once(classes/CadastroFornecedor.class.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:30:58 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'classes/CadastroFornecedor.class.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:31:11 America/Fortaleza] PHP Warning:  require_once(classes/CadastroFornecedor.class.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:31:11 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'classes/CadastroFornecedor.class.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:31:13 America/Fortaleza] PHP Warning:  require_once(classes/CadastroFornecedor.class.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 15:31:13 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'classes/CadastroFornecedor.class.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 9
+[04-May-2020 16:39:07 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario' cannot be null in /home2/aaoste53/public_html/classes/log.class.php:18
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/log.class.php(18): PDOStatement->execute()
+#1 /home2/aaoste53/public_html/classes/cadastroFornecedor.class.php(116): Log->registrar('Inclus\xC3\xA3o de Fo...', NULL)
+#2 /home2/aaoste53/public_html/classes/cadastroFornecedor.class.php(85): CadastroFornecedores->logIncluir()
+#3 /home2/aaoste53/public_html/fornecedor_Salvar.php(32): CadastroFornecedores->salvar()
+#4 {main}
+  thrown in /home2/aaoste53/public_html/classes/log.class.php on line 18
+[04-May-2020 17:00:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario' cannot be null in /home2/aaoste53/public_html/classes/log.class.php:18
+Stack trace:
+#0 /home2/aaoste53/public_html/classes/log.class.php(18): PDOStatement->execute()
+#1 /home2/aaoste53/public_html/classes/cadastroFornecedor.class.php(116): Log->registrar('Inclus\xC3\xA3o de Fo...', NULL)
+#2 /home2/aaoste53/public_html/classes/cadastroFornecedor.class.php(85): CadastroFornecedores->logIncluir()
+#3 /home2/aaoste53/public_html/fornecedor_Salvar.php(32): CadastroFornecedores->salvar()
+#4 {main}
+  thrown in /home2/aaoste53/public_html/classes/log.class.php on line 18
+[04-May-2020 17:04:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method CadastroFornecedores::setUsuario() in /home2/aaoste53/public_html/fornecedor_Salvar.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2/aaoste53/public_html/fornecedor_Salvar.php on line 32
+[04-May-2020 17:52:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home2/aaoste53/public_html/fornecedor_Consultar.php on line 58
+[06-May-2020 11:27:59 America/Fortaleza] PHP Fatal error:  Cannot use [] for reading in /home2/aaoste53/public_html/produto_Salvar.php on line 29
+[06-May-2020 11:28:26 America/Fortaleza] PHP Fatal error:  Cannot use [] for reading in /home2/aaoste53/public_html/produto_Salvar.php on line 29
+[06-May-2020 11:28:53 America/Fortaleza] PHP Fatal error:  Cannot use [] for reading in /home2/aaoste53/public_html/produto_Salvar.php on line 29
+[08-May-2020 17:57:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[08-May-2020 18:02:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[08-May-2020 19:36:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[08-May-2020 20:51:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[08-May-2020 20:56:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 01:49:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 01:49:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 03:08:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 05:08:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 07:18:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 08:35:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 09:05:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[09-May-2020 16:49:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/aaoste53/public_html/classes/usuario.class.php:35
+Stack trace:
+#0 /home2/aaoste53/public_html/index.php(11): Usuario->setUsuario(NULL)
+#1 {main}
+  thrown in /home2/aaoste53/public_html/classes/usuario.class.php on line 35
+[20-May-2020 17:36:59 America/Fortaleza] PHP Warning:  require(../conn.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7
+[20-May-2020 17:36:59 America/Fortaleza] PHP Warning:  require(../conn.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7
+[20-May-2020 17:36:59 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../conn.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7
+[20-May-2020 17:37:03 America/Fortaleza] PHP Warning:  require(../conn.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7
+[20-May-2020 17:37:03 America/Fortaleza] PHP Warning:  require(../conn.php): failed to open stream: No such file or directory in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7
+[20-May-2020 17:37:03 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../conn.php' (include_path='.:/opt/php71/lib/php') in /home2/aaoste53/public_html/modais/consulta_Fornecedor.modal.php on line 7

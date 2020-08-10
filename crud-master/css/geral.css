@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: #cacaca;
+}
+
+.container {
+    padding: 0;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+header {
+    height: 140px;
+    vertical-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header img {
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+header h1 {
+    float: left;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+header label {
+    float: right;
+    margin: 0px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.corpo {
+    margin-top: 60px;
+    padding: 20px;
+    height: 100%;
+}
+
+.corpo h2 {
+    text-align: center;
+}
+
+.formulario {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.tab th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+.pag{
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.select {
+    width: 40%;
+}

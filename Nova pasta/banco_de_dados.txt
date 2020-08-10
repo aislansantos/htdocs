@@ -1,0 +1,54 @@
+-- Contém as instruções em SQL que criarão o banco de dados, a tabela e fará a inserção de dados que serão usados como exemplo, mas que podem ser apagados posteriormente
+-- Copyright (c) 2008 Aline Lima, Aline Magalhães, Andréa Lopes, Frederico Pimentel.
+Este documento permite cópia, distribuição e/ou modificação garantida sob os termos da Lincença Pública Geral Menor do GNU conforme publicada pela Free Software Foundation; tanto a versão 2.1 da Licença quanto as versões posteriores. Esta biblioteca é distribuído na expectativa de que seja útil, porém, SEM NENHUMA GARANTIA; nem mesmo a garantia implícita de COMERCIABILIDADE OU ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA. Consulte a Licença Pública Geral Menor do GNU para mais detalhes. 
+
+-- Servidor: localhost
+-- Tempo de Geração: Mai 20, 2008 as 05:03 PM
+-- Versão do Servidor: 5.0.45
+-- Versão do PHP: 5.2.3
+
+
+-- phpMyAdmin SQL Dump
+-- version 2.10.2
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tempo de Geração: Mai 20, 2008 as 05:03 PM
+-- Versão do Servidor: 5.0.45
+-- Versão do PHP: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Banco de Dados: `produtos`
+-- 
+CREATE DATABASE `trabalho` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `trabalho`;
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `produtos`
+-- 
+
+CREATE TABLE `produtos` (
+  `codigo` int(11) NOT NULL auto_increment,
+  `nome` varchar(100) NOT NULL,
+  `preco` float NOT NULL,
+  PRIMARY KEY  (`codigo`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=44 ;
+
+-- 
+-- Extraindo dados da tabela `produtos`
+-- 
+
+INSERT INTO `produtos` (`codigo`, `nome`, `preco`) VALUES 
+(1, 'Monitor LCD 15', 599),
+(2, 'Monitor LCD 17', 789),
+(3, 'Monitor LCD 19', 999),
+(4, 'Lavadora de Roupas 10kg', 1500),
+(5, 'Lavadora de Roupas 12kg', 1529),
+(6, 'Lavadora de Roupas 14 kg', 1600),
+(7, 'Camera Digital 2.0', 357.55),
+(8, 'Camera Digital 3.1', 350),
+(9, 'Camera Digital 5.0', 650);

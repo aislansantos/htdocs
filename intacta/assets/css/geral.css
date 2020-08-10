@@ -1,0 +1,24 @@
+body {
+    margin: 2;
+    padding: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    text-align: center;
+}
+
+#logoTopo{
+    margin-right: 2px;
+}
+
+#rodape {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.verde { background-color: #3bccb42f;}
+.vermelho { background-color: #d9544f3d;}
+
+.topo{
+    margin-left: 15px;
+}
